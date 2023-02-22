@@ -7,9 +7,10 @@ include "main.h"
  *
  * Return: no return
  */
+
 void print_times_table(int n)
 {
-	int a, b, op;
+	int num, mult, prod;
 
 	if (n >= 0 && n <= 15)
 	{
